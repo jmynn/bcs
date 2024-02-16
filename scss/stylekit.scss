@@ -1,0 +1,27 @@
+:root {
+	--bg-black: rgb(12, 12, 12);
+	--bg-gray: rgb(24, 24, 24);
+	--bg-footer: rgb(28, 31, 38);
+	--fg-light: rgb(240, 240, 240);
+	--fg-dark: rgb(199, 199, 199);
+
+	--brand-dark-blue: rgb(23, 86, 209);
+	--brand-blue: rgb(34, 109, 255);
+	--brand-light-blue: rgb(91, 141, 239);
+
+	--accent-red: rgb(239, 91, 91);
+	--accent-green: rgb(84, 217, 113);
+
+	--fz-64: 4rem;
+	--fz-48: 3rem;
+	--fz-24: 1.5rem;
+	--fz-18: 1.125rem;
+
+	--ff: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+		'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+	--transition-opacity: opacity ease-in-out 0.3s;
+	--bg-card: rgb(36, 36, 36);
+	--fg-card: rgb(163, 163, 163);
+}
