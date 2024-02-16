@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Black CSS Studio</title>
+
+    <meta name="theme-color" content='#121212'>
+    <link type="image/png" sizes="32x32" rel="icon" href="img/favicon.svg">
+    <link rel="stylesheet" href="css/index.css">
+</head><body>
+    <div class="wrapper" data-page="client">
+<header class="header _container">
+    <div class="header__logo logo">
+        <a href="/" class="logo__link">
+            <img src="img/logo.svg" alt="логотип">
+        </a>
+    </div>
+   <div class="header__body">
+        <nav class="header__nav header-nav">
+            <a href="/client.html" class="header-nav__route">Стать клиентом</a>
+            <a href="/#" class="header-nav__route">Услуги</a>
+            <a href="/works.html" class="header-nav__route">Работы</a>
+            <a href="/#.html" class="header-nav__route">Вакансии</a>
+        </nav>
+        <div class="header__contacts contacts">
+            <a href="tel:+00000000000" class="contacts__link">
+                <img src="img/icons/contacts/phone.svg" alt="номер телефона">
+            </a>
+            <a href="mailto:mail@mail.com" class="contacts__link">
+                <img src="img/icons/contacts/mail.svg" alt="почтовый адрес">
+            </a>
+            <a href="https://t.me/jmynn" class="contacts__link">
+                <img src="img/icons/contacts/tg.svg" alt="телеграм контакт">
+            </a>
+        </div>
+   </div>
+    <div class="_menu"><div></div></div>
+</header>        <div class="content">
+<main class="main _container">
+    <div class="main__row">
+        <div class="main__column">
+            <h1 class="main__title">Решили работать с нами? Заполните
+анкету для общего удобства</h1>
+            <h2 class="main__subtitle">Ваши ответы для нас являются наилучшей отправной точкой.</h2>
+        </div>
+        <div class="main__column">
+            <div class="main__picture picture-main">
+                <img src="img/icons/client-page/paper-clip.svg" alt="paper clip" class="picture-main__image">
+            </div>
+        </div>
+    </div>
+</main><div class="questionnaire _container">
+    <div class="questionnaire__row">
+        <div class="questionnaire__column column-questionnaire">
+            <div class="column-questionnaire__body">
+                <div class="column-questionnaire__message message-questionnaire">
+                    <div class="message-questionnaire__textarea">
+                        <textarea name="message" id="questionnaire-message" placeholder="Ваше сообщение" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="message-questionnaire__file file-questionnaire">
+                        <input type="file" name="file" id="questionnaire-file" class="file-questionnaire__input">
+                        <button type="button" id="questionnaire-file-btn" class="file-questionnaire__btn">Прикрепить файл</button>
+                        <div class="file-questionnaire__hidden" id="file-questionnaire-info" data-hidden>
+                            <div class="file-questionnaire__title" id="file-questionnaire-title"></div>
+                            <button type="button" class="file-questionnaire__delete" id="file-questionnaire-delete">Удалить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-questionnaire__info info-questionnaire">
+                    <h2 class="info-questionnaire__title">Как составить грамотное сообщение?</h2>
+                    <div class="info-questionnaire__points points-info">
+                        <div class="points-info__point point">
+                            <h3 class="point__title">Чем вы занимаетесь?</h3>
+                            <div class="point__text">Расскажите о своей компании. Как работаете, на чем зарабатываете?
+Кто ваши конкуренты? Чем вы от них отличаетесь?</div>
+                        </div>
+                        <div class="points-info__point point">
+                            <h3 class="point__title">В чем ваша задача?</h3>
+                            <div class="point__text">Чего хотите достичь в ближайшем будущем?
+Что вам мешает?</div>
+                        </div>
+                        <div class="points-info__point point">
+                            <h3 class="point__title">Каким вы видите решение задачи?</h3>
+                            <div class="point__text">Как планируете достичь своих целей?
+Какие решения пробовали раньше?</div>
+                        </div>
+                        <div class="points-info__point point">
+                            <h3 class="point__title">Какие у вас ожидания от результата?</h3>
+                            <div class="point__text">В каком виде вы хотите видеть решение вашей задачи? В какой срок?
+Почему он важен? На что это должно быть похоже?</div>
+                        </div>
+                        <div class="points-info__point point">
+                            <h3 class="point__title">Сколько денег планируете потратить?</h3>
+                            <div class="point__text">Каков ваш бюджет? Почему вы готовы потратить именно такую сумму?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="questionnaire__column column-questionnaire">
+            <h2 class="column-questionnaire__title">Заполните поля и отправляйте
+заявку в наши руки!</h2>
+            <div class="column-questionnaire__feedback feedback-questionnaire">
+                <form action="#" class="feedback-questionnaire__form feedback-form" id="feedback-form">
+                    <div class="feedback-form__block form-block">
+                        <div class="form-block__body">
+                            <input type="text" name="name" placeholder="Имя">
+                        </div>
+                        <div class="form-block__body">
+                            <input type="tel" name="phone" placeholder="Номер телефона">
+                            <label class="form-block__title">Телефон</label>
+                        </div>
+                        <div class="form-block__body">
+                            <input type="email" name="email" placeholder="Электронная почта">
+                            <label class="form-block__title">Почта</label>
+                        </div>
+                    </div>
+                    <div class="feedback-form__block">
+                        <button type="submit" class="feedback-form__button">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>        </div>
+<footer class="footer">
+    <div class="footer__container _container">
+        <div class="footer__routes footer-route">
+            <a href="/client" class="footer-route__route">Стать клиентом</a>
+            <a href="/services" class="footer-route__route">Услуги</a>
+            <a href="/works" class="footer-route__route">Работы</a>
+            <a href="/vacancy" class="footer-route__route">Вакансии</a>
+        </div>
+        <div class="footer__contacts contacts">
+            <a href="tel:+00000000000" class="contacts__link">
+                <img src="img/icons/contacts/phone.svg" alt="номер телефона">
+            </a>
+            <a href="mailto:mail@mail.com" class="contacts__link">
+                <img src="img/icons/contacts/mail.svg" alt="почтовый адрес">
+            </a>
+            <a href="https://t.me/jmynn" class="contacts__link">
+                <img src="img/icons/contacts/tg.svg" alt="телеграм контакт">
+            </a>
+        </div>
+    </div>
+</footer>    </div>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/client.js"></script>
+</body>
+</html>
