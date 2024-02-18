@@ -52,19 +52,22 @@
         </div>
     </div>
 </main><div class="questionnaire _container">
-    <div class="questionnaire__row">
+    <form action="#" id="feedback-form" class="questionnaire__row">
         <div class="questionnaire__column column-questionnaire">
             <div class="column-questionnaire__body">
                 <div class="column-questionnaire__message message-questionnaire">
                     <div class="message-questionnaire__textarea">
-                        <textarea name="message" id="questionnaire-message" placeholder="Ваше сообщение" cols="30" rows="10"></textarea>
+                        <textarea name="message" id="questionnaire-message" placeholder="Ваше сообщение" cols="30"
+                            rows="10"></textarea>
                     </div>
                     <div class="message-questionnaire__file file-questionnaire">
                         <input type="file" name="file" id="questionnaire-file" class="file-questionnaire__input">
-                        <button type="button" id="questionnaire-file-btn" class="file-questionnaire__btn">Прикрепить файл</button>
+                        <button type="button" id="questionnaire-file-btn" class="file-questionnaire__btn">Прикрепить
+                            файл</button>
                         <div class="file-questionnaire__hidden" id="file-questionnaire-info" data-hidden>
                             <div class="file-questionnaire__title" id="file-questionnaire-title"></div>
-                            <button type="button" class="file-questionnaire__delete" id="file-questionnaire-delete">Удалить</button>
+                            <button type="button" class="file-questionnaire__delete"
+                                id="file-questionnaire-delete">Удалить</button>
                         </div>
                     </div>
                 </div>
@@ -74,26 +77,27 @@
                         <div class="points-info__point point">
                             <h3 class="point__title">Чем вы занимаетесь?</h3>
                             <div class="point__text">Расскажите о своей компании. Как работаете, на чем зарабатываете?
-Кто ваши конкуренты? Чем вы от них отличаетесь?</div>
+                                Кто ваши конкуренты? Чем вы от них отличаетесь?</div>
                         </div>
                         <div class="points-info__point point">
                             <h3 class="point__title">В чем ваша задача?</h3>
                             <div class="point__text">Чего хотите достичь в ближайшем будущем?
-Что вам мешает?</div>
+                                Что вам мешает?</div>
                         </div>
                         <div class="points-info__point point">
                             <h3 class="point__title">Каким вы видите решение задачи?</h3>
                             <div class="point__text">Как планируете достичь своих целей?
-Какие решения пробовали раньше?</div>
+                                Какие решения пробовали раньше?</div>
                         </div>
                         <div class="points-info__point point">
                             <h3 class="point__title">Какие у вас ожидания от результата?</h3>
                             <div class="point__text">В каком виде вы хотите видеть решение вашей задачи? В какой срок?
-Почему он важен? На что это должно быть похоже?</div>
+                                Почему он важен? На что это должно быть похоже?</div>
                         </div>
                         <div class="points-info__point point">
                             <h3 class="point__title">Сколько денег планируете потратить?</h3>
-                            <div class="point__text">Каков ваш бюджет? Почему вы готовы потратить именно такую сумму?</div>
+                            <div class="point__text">Каков ваш бюджет? Почему вы готовы потратить именно такую сумму?
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -101,29 +105,29 @@
         </div>
         <div class="questionnaire__column column-questionnaire">
             <h2 class="column-questionnaire__title">Заполните поля и отправляйте
-заявку в наши руки!</h2>
+                заявку в наши руки!</h2>
             <div class="column-questionnaire__feedback feedback-questionnaire">
-                <form action="#" class="feedback-questionnaire__form feedback-form" id="feedback-form">
+                <div class="feedback-questionnaire__form feedback-form">
                     <div class="feedback-form__block form-block">
                         <div class="form-block__body">
-                            <input type="text" name="name" placeholder="Имя">
+                            <input type="text" name="name" placeholder="Имя" required>
                         </div>
                         <div class="form-block__body">
-                            <input type="tel" name="phone" placeholder="Номер телефона">
+                            <input type="tel" name="phone" placeholder="Номер телефона" required>
                             <label class="form-block__title">Телефон</label>
                         </div>
                         <div class="form-block__body">
-                            <input type="email" name="email" placeholder="Электронная почта">
+                            <input type="email" name="email" placeholder="Электронная почта" required>
                             <label class="form-block__title">Почта</label>
                         </div>
                     </div>
                     <div class="feedback-form__block">
                         <button type="submit" class="feedback-form__button">Отправить заявку</button>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
+    </form>
 </div>        </div>
 <footer class="footer">
     <div class="footer__container _container">
